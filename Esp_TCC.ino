@@ -9,8 +9,8 @@ IPAddress gateway(192, 168, 0, 1);
 IPAddress subnet(255, 255, 255, 0);
 IPAddress dns(192, 168, 0, 1);
 
-const char* ssid = "Miclos"; //Nome da rede 
-const char* password = "04122000"; //Senha da rede
+const char* ssid = "Nome da rede  "; //Nome da rede 
+const char* password = "Senha da rede "; //Senha da rede
 WiFiServer server(80); 
 
 LiquidCrystal_I2C lcd(0x27,16,2); 
