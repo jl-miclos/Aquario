@@ -70,7 +70,6 @@ myStepper.step(-stepsPerRevolution4);
 myStepper.step(stepsPerRevolution2);
 }
 
-//ARRUMAR COM A LÓGICA QUE OS SENSORES ESTIVEREM NA CASA DO JOÃO
 if (msg.indexOf("ITPA") > 0) { //Receber ordem do ESP8266   
 if(digitalRead(SensorSeguranca) == HIGH){ //Se for high, executa todo o processo 
   
